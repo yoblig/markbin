@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { createContainer } from 'meteor/react-meteor-data';
 import { Bins } from '../../../lib/collections/bins';
+import BinsEditor from './bins-editor';
 
 class BinsMain extends Component {
     render(){
-        console.log(this.props.bin);
         return (
-            <div>BINSMAIN</div>
+            <BinsEditor bin={this.props.bin} />
         );
     }
 }
