@@ -7,3 +7,8 @@
 body{
     background: lightgray;
 }
+
+
+.list-group-item{
+    height: 50px;
+}
