@@ -3,8 +3,11 @@ import { markdown } from 'markdown';
 
 class BinsViewer extends Component {
     render(){
+        const rawHTML = markdown.toHTML(this.props.bin.content);
         return (
-            <div className="col-xs-4">BinsViewer</div>
+            <div className="col-xs-4">
+                <div dangerouslySetInnerHTML={{__html: rawHTML}}></div>
+            </div>
         );
     }
 }
