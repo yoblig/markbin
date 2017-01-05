@@ -12,3 +12,9 @@ body{
 .list-group-item{
     height: 50px;
 }
+
+.bins-share {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
