@@ -17,4 +17,13 @@ body{
     width: 100%;
     bottom: 0;
     position: absolute;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.bins-share .input-group{
+    width: 30%;
+}
+.bins-share div {
+    margin: 0 10px;
 }
